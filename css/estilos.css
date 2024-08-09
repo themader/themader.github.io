@@ -770,8 +770,8 @@ nav ul li{
 
     #ventanas {
         display: flex;
-        flex-direction: column;      /* Coloca los elementos en columna */
-        align-items: center;         /* Centra los elementos horizontalmente */
+        flex-direction: column;      
+        align-items: center;         
         width: 60%;
     }
 
@@ -821,33 +821,33 @@ nav ul li{
     
 
     #novedades {
-        display: flex;                /* Usamos flexbox para organizar los elementos */
-        flex-wrap:wrap;             /* Permitir que los elementos se envuelvan */
-        justify-content: center;      /* Centra los elementos en el contenedor */
+        display: flex;             
+        flex-wrap:wrap;             
+        justify-content: center;      
     }
     
     
     #novedades li {
-        width: 300px;                /* Ancho fijo para los elementos */
-        text-align: center;          /* Centra el texto de los encabezados */
+        width: 300px;                
+        text-align: center;         
     }
 
     .productos {
-        display: flex;                /* Usamos flexbox para alinear los artículos */
-        flex-wrap: wrap;             /* Permitir que los artículos se envuelvan */
-        justify-content: center;      /* Centra los artículos en el contenedor */
+        display: flex;              
+        flex-wrap: wrap;            
+        justify-content: center;     
     }
     
     .productos ul {
-        list-style: none;            /* Elimina viñetas de la lista */
-        padding: 0;                  /* Elimina padding por defecto */
-        margin: 0;                   /* Elimina margen por defecto */
+        list-style: none;           
+        padding: 0;                 
+        margin: 0;                   
     }
     
     .productos article {
-        width: 45%;                  /* Ancho de los artículos (ajustable) */
-        margin: 10px;                /* Espacio entre los artículos */
-        text-align: center;          /* Centra el texto de los encabezados */
+        width: 45%;                  
+        margin: 10px;                
+        text-align: center;         
     }
   
 }
