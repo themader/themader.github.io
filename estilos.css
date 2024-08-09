@@ -1,0 +1,911 @@
+header, main, footer{
+    width: 1400px;
+    background-color: rgb(236, 236, 236);
+    margin: auto;
+    padding: 10px;
+    animation-name: noseve;
+    animation-duration: 1.5s;
+}
+
+.container-fluid{
+    background-color: blue;
+    border-radius: 5% solid blue;
+}
+
+header, footer{
+    width: 1700px;
+}
+
+header div{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+@keyframes noseve{
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes ventanas{
+    0%{
+        visibility: hidden;
+    }
+    50%{
+        opacity: 0.1;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes noseve{
+    from{
+        margin-left: -1000px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+@keyframes ventana{
+    from{
+        margin-left: 200px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+#fotos li{
+    margin: 0px;
+}
+
+object{
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 1200px;
+}
+
+#fotos {
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding: 0; 
+    margin: 0; 
+}
+
+header, footer{
+    height: 450px;
+    background-color:rgb(37, 50, 13);
+    color: white;
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+footer{
+    height: 150px;
+    background-color:rgb(37, 50, 13);
+    color: white;
+    
+}
+
+main section article nav{
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+
+
+#logo{
+    width: 25%;
+    color: black;
+ }  
+ 
+
+ li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+ }
+
+ 
+
+ #color_ventanas{
+    text-align: center;
+    color: white;
+ }
+
+ h2, h3, h1, p{
+    text-align: center;
+    
+ }
+
+ h3{
+    width: 60%;
+    margin: auto;
+ }
+
+ form{
+    background-color: rgb(236, 236, 236);
+    margin: auto;
+    padding: 10px;
+    display: block;
+    text-align: center; 
+}
+
+#ventanas {
+    display: flex;
+    flex-direction: row;
+    animation-name: ventana;
+    animation-duration: 2.5s;
+    
+}
+
+#servicios{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    animation-name: ventana;
+    animation-duration: 2.5s;    
+    justify-content: center;
+}
+
+#medios{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    animation-name: ventana;
+    animation-duration: 2.5s;    
+    justify-content: center;
+
+}
+
+#medios ul{
+    margin: 20px;
+}
+
+
+
+#novedades{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    animation-name: ventana;
+    animation-duration: 2.5s;
+    margin: auto;    
+    
+}
+
+#novedades img{
+    width: 250px;
+}
+
+
+#medios img{
+    width: 400px;               
+    height: 400px;              
+}
+
+
+#historia {
+    display: flex;               
+    flex-wrap: wrap;            
+    justify-content: center;                   
+}
+
+section{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+ul li figure a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+ul li figure a img:hover{
+  
+  margin: auto;
+  text-decoration: none;
+}
+
+ul li figure{
+    margin: 5%;
+    justify-items: center;
+}
+
+body{
+    background-image: url(../img/body_fabricaarcor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+nav ul a:hover {
+    color: skyblue;
+    background-color: white;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=file], select{
+    width: 500px;
+    height: 25px;
+    margin: auto;
+}
+
+#logo img{
+    width: 200px;
+}
+
+article div a{
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article div li a:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+input, textarea{
+    width: 50%;
+    height: 40px;
+    font: 18pt;
+}
+
+textarea{
+    height: 80px;
+}
+
+input[type=submit]{
+    background-color: rgb(151, 151, 147);
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#columnas{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+   
+}
+
+article div a{
+    display: block;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+/*---------------------TIENDA----------------------*/
+.productos {
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+    flex-direction: row;
+}
+
+.productos ul li figure a img{
+    border: 5px solid black;
+    margin: 100px;
+    margin: auto;
+    text-decoration: none;
+  }
+
+.productos img{
+    width: 350px; 
+    height: 70%; 
+}
+
+/*---------------ANIMACION DE LAS OPCIONES------------*/
+ul li figure a img:hover{
+    border: 5px solid skyblue;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  ul li figure a img{
+    border: 5px solid blue;
+    margin: 100px;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  article li figure:hover{
+    margin: auto;
+    text-decoration: none;
+  }
+
+article li figure{
+    margin: 100px;
+    margin: auto;
+    text-decoration: none;
+  }
+
+#agros{
+    border: 5px solid blue;
+    border: 5px solid skyblue;
+    margin: 20px;
+}
+
+/*--------------------------------------------*/
+/*----VENTANA MODAL----*/
+/*----------------------------------------------------*/
+/*-----------PRODUCTOS ARCOR*-------*/
+#tirabuzon, #moño, #aceite, #mostachol, #chocolates1, #chocolates2, #butter, #party, #durazno{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#tirabuzon:target, #moño:target, #aceite:target, #mostachol:target, #chocolates1:target, #chocolates2:target, #butter:target, #party:target, #casa9:target{
+    display: block;
+}
+
+.productos img{
+    width: 350px;               
+    height: 350px;              
+}
+
+/*---------------PTODUCTOS SERENISIMA-------*/
+#leche1, #leche2, #rallado, #dulce_leche, #cremoso, #yogurt{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#leche1:target, #leche2:target, #rallado:target, #dulce_leche:target, #cremoso:target, #yogurt:target{
+    display: block;
+}
+
+/*---------------PTODUCTOS PRESTO PRONTA-------*/
+#polenta_comun, #polenta_espinaca, #polenta_rallado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#polenta_comun:target, #polenta_espinaca:target, #polenta_rallado:target{
+    display: block;
+}
+
+.contenido img{
+    width: 30%;
+ }
+
+.modal, .contenido{
+    margin: auto;
+    position: relative;
+    text-align: justify;
+    width: 80%;
+}
+
+.contenido{
+    height: 400px;
+    margin-top: 100px;
+}
+
+.contenido header{
+    background-color: rgb(37, 50, 13);
+    text-align: center;
+    height: 200px;
+    margin: auto;
+}
+
+.contenido main{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    margin: auto;
+    height: 700px;
+}
+
+.contenido header{
+    width: 1200px;
+    margin: auto;
+}
+
+.contenido main{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.contenido footer{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.contenido main section{
+    margin-bottom: 0px;
+    padding: 50px;
+}
+
+.contenido footer div a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(37, 50, 13);
+    color: white;
+}
+
+.contenido header a{
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.contenido header a:hover{
+    background-color: red;
+    color: black;
+}
+
+.contenido form{
+    margin: auto;
+}
+
+.contenido select{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.contenido section article{
+    flex: 50%;
+}
+
+/*-----------------------------menu desplegable---------------------------------------*/
+button{
+    display: none;
+}
+
+
+nav ul li a{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    
+}
+
+/*-------------------------------------------------*/
+/* MODIFICACIONES PARA CELULARES */ 
+/*-------------------------------------------------*/
+@media screen and (max-width: 500px){
+
+    button{
+        display: block;
+        background-color: black;
+        color: yellow;
+        padding: 10px;
+        font-weight: bold;
+        margin-left: 80%;
+    }
+
+    nav{
+        display: none;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    nav ul li a{
+        display: block;
+    }
+    #Menu:hover nav{
+        display: block;
+    }
+
+    #Menu{
+        z-index: 4;
+    }
+
+    section{
+        flex-direction:row;
+    }
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    article{
+        flex: none;
+    }
+
+    button{
+        display: block;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        margin-left: 50%;
+    }
+
+   
+    header, main, footer{
+        margin: auto;
+        padding: 0;
+        width: 95%;
+    }
+
+    
+
+    #logo{
+        width: 20%;
+        color: black;
+     }  
+
+     #historia {
+        flex-direction: column; 
+        align-items: center;    
+    }
+
+    .contenido main{
+        background-color: rgb(236, 236, 236);
+        text-align: center;
+        margin: auto;
+        height: 350px;
+    }
+
+    article{
+        width: 80%;
+        margin: auto;
+    }
+    
+    header, main, footer{
+        margin: auto;
+        padding: 10px;
+    }
+
+    img{
+        text-align:center;
+        width: 70%;
+        height: 50%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #ventanas, #novedades, #medios{
+        display:inline-block;
+        flex-direction: center;
+        text-align: center;
+    }
+
+    #ventanas img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .productos{
+        display:inline-block;
+        flex-direction: center;
+        text-align: center;
+    }
+
+    .productos img{
+        width: 75%;
+    }
+
+    article{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #servicios{
+        display: inline-block;
+        flex-direction: center;
+        text-align: center;
+    }
+
+    header{
+        height: 320px;
+    }
+    
+    form{
+        background-color: rgb(236, 236, 236);
+        margin: auto;
+        padding: 10px;
+        display: block;
+        text-align: center; 
+        width: 150px;
+    }
+    
+    input[type=text], input[type=number], input[type=email], input[type=file], select{
+        width: 150px;
+        height: 25px;
+        margin: auto;
+    }
+    
+    iframe, object{
+        width: 80%;
+        text-align:center;
+        flex-direction: column;
+        height: 50%;
+    }
+
+  
+
+    #columnas{
+        flex-direction: column;
+    }
+
+    #consultas{
+        height: 650px;
+    }
+
+    #consultas2{
+        height: 650px;
+    }
+
+    .contenido header{
+        width: 300px;
+    }
+
+    .contenido footer{
+        width: 300px;
+    }
+
+    .contenido main{
+        width: 300px;
+    }
+
+    #medios img{
+        width: 300px;               
+        height: 300px;              
+    }
+
+    .productos img{
+        width: 200px;               
+        height: 200px;              
+    }
+
+}
+
+.parallax{
+    background-image: url(../img/negocios/Imagenes/fondo\(parallax\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    min-height: 400px;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/*-----------------------MODIFICACIONES PARA TABLET------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 960px) and (min-width: 501px){
+    section{
+        flex-direction:row;
+    }
+
+    article{
+        width: 40%;
+    }
+
+    #consultas{
+        height: 600px;
+    }
+
+    #novedades {
+        display: flex;
+        flex-wrap: wrap;  
+        justify-content: space-between;
+        align-items: center; 
+    }
+    
+    header{
+        height: 300px;
+    }
+
+    #logo{
+        width: 25%;
+        color: black;
+     }  
+
+    header, main, footer{
+        margin: auto;
+        padding: 10px;
+        width: 95%;
+    }
+
+    img{
+        text-align:center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contenido input[type=text], input[type=number], input[type=email], input[type=file], select{
+        width: 200px;
+        height: 25px;
+        margin: auto;
+    }
+
+    input[type=text], input[type=number], input[type=email], input[type=file], select{
+        width: 200px;
+        height: 25px;
+        margin: auto;
+    }
+
+    #ventanas {
+        display: flex;
+        flex-direction: column;      
+        align-items: center;         
+        width: 60%;
+    }
+
+    #servicios{
+        display:inline-flex ;
+        flex-direction: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contenido main{
+        background-color: rgb(236, 236, 236);
+        text-align: center;
+        margin: auto;
+       
+        width: 600px;
+    }
+    .contenido footer{
+       
+        width: 600px;
+    }
+    .contenido header{
+        height: 250px;
+        width: 600px;
+    }
+
+    form{
+        background-color: rgb(236, 236, 236);
+        margin: auto;
+        padding: 10px;
+        display: block;
+        text-align: center; 
+        width: 70%;
+        flex-direction: column;
+    }
+
+    
+
+    iframe, object{
+        text-align:center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+   
+    
+
+    #novedades {
+        display: flex;                
+        flex-wrap:wrap;             
+        justify-content: center;     
+    }
+    
+    
+    #novedades li {
+        width: 300px;               
+        text-align: center;         
+    }
+
+    .productos {
+        display: flex;                
+        flex-wrap: wrap;            
+        justify-content: center;      
+    }
+    
+    .productos ul {
+        list-style: none;           
+        padding: 0;                  
+        margin: 0;                  
+    }
+    
+    .productos article {
+        width: 45%;                  
+        margin: 10px;                
+        text-align: center;          
+    }
+    
+    #medios img{
+        width: 300px;               
+        height: 300px;              
+    }
+
+    #medios {
+        display: flex;               
+        justify-content: center;      
+        align-items: center;          
+    }
+
+    .productos img{
+        width: 200px;               
+        height: 200px;              
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
