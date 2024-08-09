@@ -8,12 +8,8 @@
 </head>
 <body>
     <header>
-        <div>
-            <ul id="fotos">
-                <figure>
-                    <img src="../img/logo-grupo-arcor.png"  width="25%" height="25%">
-                </figure>
-            </ul>
+        <div id="logo">
+            <img src="../img/logo-grupo-arcor.png" width="25%" height="25%">
         </div>
         <div id="Menu">
             <button>Opciones</button>
@@ -28,107 +24,120 @@
         </div>
     </header>
     <main>
-        <h2>¿Que Producto de "Presto Pronta" buscas en particular?</h2>
-        <section>
-            <article>
-                <h3>Presto Pronta Polenta $2.000</h3>
-                <figure>
-                    <img src="../img/Presto/Presto1.webp" width="300px" height="300px">
-                </figure>
-                <div>
-                    <a href="#Polenta">Ver mas</a>
-                </div>
-            </article>
-            <article>
-                <h3>Presto Pronta Polenta Especial $2.750</h3>
-                <figure>
-                    <img src="../img/Presto/Presto2.jpg" width="300px" height="300px">
-                </figure>
-                <div>
-                    <a href="#PolentaEspecial">Ver mas</a>
-                </div>
-            </article>
+        <h1><strong>Presto Pronta</strong></h1>
+        <p>¿Que producto buscas en particular?</p>
+        <section class="productos">
+                <article>
+                    <ul id="fotos">
+                        <li>
+                            <h3>Polenta comun: "1.200</h3>
+                            <figure>
+                                <a href="#polenta_comun" >
+                                    <img src="../img/productos_presto/polenta_comun.jpg"  alt="Polenta comun"  >
+                                </a>
+                            </figure>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul id="fotos">
+                        <li>
+                            <h3>Polenta Espinaca: $1.500</h3>
+                            <figure>
+                                <a href="#polenta_espinaca" >
+                                    <img src="../img/productos_presto/polenta_espinaca.webp"  alt="polenta con espinca"  >
+                                </a>
+                            </figure>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul id="fotos">
+                        <li>
+                            <h3>Polenta con rallado: $1.500</h3>
+                            <figure>
+                                <a href="polenta_#rallado" >
+                                    <img src="../img/productos_presto/polenta_conrallado.webp"  alt="polenta con rallado"  >
+                                </a>
+                            </figure>
+                        </li>
+                    </ul>
+                </article>
         </section>
-        <form action="../pages/pedidos.html" method="get" enctype="multipart/form-data">  
-            <h2>Formulario y solicitud:</h2>
-            <p>Completar la solicitud con el producto y la cantidad que necesita y pronto se le comunicara cuanto seria la tarifa.</p>
-                <p>Ante cualquier consulta o algun otro motivo, se puede comunicar dejandonos sus datos y un mensaje.</P>
-            <div>
-                <label for="Nombre completo">Nombre y apellido / nombre de la empresa:</label>
-                <input id="Nombre completo" type="Text" name="Nombre completo" placeholder="Nombre y apellido"/>
-            </div>
-            <div>
-                <label for="mail:">E-mail:</label>
-                <input id="mail" type="email" name="mail"  placeholder="nombre@gmail.com"/>
-            </div>
-            <div>
-                <label for="num">Numero:</label>
-                <input id="num" type="number" name="num"  placeholder="5491167459591"/>
-            </div>
-            <div>
-                <label for="num">Documento:</label>
-                <input id="num" type="number" name="num"  placeholder="45325766"/>
-            </div>
-                <label for="largo">Producto:</label>
-                <textarea id="largo" name="largo" cols="60" rows="20">Producto - cantidad</textarea>
-            </div>
-            <di>
-                <input type="submit"/>
-            </di>
-        </form action="https://formsubmit.co/cimeco.adm@gmail.com" method="post" enctype="multipart/form-data" autocomplete="on">
 
-
-                <div id="Polenta">
-                    <div class="contenido">
-                        <div>
-                            <header>
-                                <a href="#" title="cerrar">X</a>
-                            </header>
-                            <main>
-                                <section>
-                                    <article>
-                                        <figure>
-                                            <img src="../img/Presto/Presto1.webp">
-                                        </figure>
-                                    </article>
-                                </section>
-                            </main>
-                            <footer>
-                                <a href="#" title="Comprar">Comprar</a>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-                <div id="PolentaEspecial">
-                    <div class="contenido">
-                        <div>
-                            <header>
-                                <a href="#" title="cerrar">X</a>
-                            </header>
-                            <main>
-                                <section>
-                                    <article>
-                                        <figure>
-                                            <img src="../img/Presto/Presto2.jpg">
-                                        </figure>
-                                    </article>
-                                </section>
-                            </main>
-                            <footer>
-                                <a href="#" title="Comprar">Comprar</a>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
+                                <div id="polenta_comun">
+                                    <div class="contenido">
+                                        <div>
+                                            <header>
+                                                <a href="../pages/Marca_Presto_Pronta.html" title="cerrar">X</a>
+                                                <ul id="logo">
+                                                    <figure>
+                                                        <img src="../img/logo-grupo-arcor.png" width="300px" alt="Logo empresa">
+                                                    </figure>
+                                                </ul> 
+                                            </header>
+                                            <main>
+                                                <h2>Polenta comun</h2>
+                                                <p>Polenta Instantánea Harina de Maíz Presto Pronta Arcor Gde. Disfruta de una preparación rápida y sencilla con la Polenta Instantánea Harina de Maíz Presto Pronta de Arcor. Ideal para acompañar tus comidas o crear platos principales deliciosos. Su textura suave y su sabor auténtico hacen de esta polenta una opción perfecta para toda la familia. Prepará en minutos y serví un alimento reconfortante en cualquier momento del día.</p>
+                                                <figure>
+                                                    <img src="../img/productos_presto/polenta_comun.jpg" alt="polenta comun">
+                                                </figure>
+                                            </main>
+                                            <footer>
+                                                <h2>GRUPO ARCOR</h2>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="polenta_espinaca">
+                                    <div class="contenido">
+                                        <div>
+                                            <header>
+                                                <a href="../pages/Marca_Presto_Pronta.html" title="cerrar">X</a>
+                                                <ul id="logo">
+                                                    <figure>
+                                                        <img src="../img/logo-grupo-arcor.png" width="300px" alt="Logo empresa">
+                                                    </figure>
+                                                </ul> 
+                                            </header>
+                                            <main>
+                                                <h2>Polenta con espinaca</h2>
+                                                <figure>
+                                                    <img src="../img/productos_presto/polenta_espinaca.webp" alt="polenta espinaca">
+                                                </figure>
+                                            </main>
+                                            <footer>
+                                                <h2>GRUPO ARCOR</h2>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="polenta_rallado">
+                                    <div class="contenido">
+                                        <div>
+                                            <header>
+                                                <a href="../pages/Marca_Presto_Pronta.html" title="cerrar">X</a>
+                                                <ul id="logo">
+                                                    <figure>
+                                                        <img src="../img/logo-grupo-arcor.png" width="300px" alt="Logo empresa">
+                                                    </figure>
+                                                </ul> 
+                                            </header>
+                                            <main>
+                                                <h2>Polenta con queso rallado</h2>
+                                                <figure>
+                                                    <img src="../img/productos_presto/polenta_conrallado.webp" height="150%"  alt="polenta con queso rallado" >
+                                                </figure>
+                                            </main>
+                                            <footer>
+                                                <h2>GRUPO ARCOR</h2>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
     </main>
     <footer>
-        <h2>Nuestras redes:</h2>
-                <ul>
-                    <li><strong>Instagram:</strong> https://www.instagram.com/arcor/</li>
-                    <li><strong>Facebook:</strong> https://www.facebook.com/Arcor/</li>
-                    <li><strong>LinkedIn:</strong> https://www.linkedin.com/company/grupo-arcor</li>
-                    <li><strong>Youtube:</strong> https://www.youtube.com/arcor</li>
-                </ul>
+        <h2>GRUPO ARCOR</h2>
     </footer>
 </body>
 </html>
